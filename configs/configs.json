@@ -18,11 +18,11 @@
     "brick": {
         "dbtype": "virtuoso",
         "host": "http://localhost:8890/sparql",
-        "brick_version": "1.0.3",
+        "brick_version": "1.0.2",
         "base_ns": "http://brickschema.org/example_ns/"
     },
     "server": {
         "hostname": "0.0.0.0:7889",
-        "use_hostname_as_ns": true
+        "use_hostname_as_ns": false
     }
 }

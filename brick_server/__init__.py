@@ -45,6 +45,7 @@ def configure_binding(binder):
                                base_ns=base_ns,
                                load_schema=True,
                                )
+    brick_sparql.load_rdffile('sample_data/ebu3b_brick.ttl')
     binder.bind(BrickTimeseries, to=brick_ts)
     binder.bind(BrickSparql, to=brick_sparql)
     binder.bind(LockManager, to=lock_manager)
