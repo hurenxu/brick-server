@@ -19,7 +19,7 @@
         "dbtype": "virtuoso",
         "host": "http://localhost:8890/sparql",
         "brick_version": "1.0.2",
-        "base_ns": "http://brickschema.org/example_ns/"
+        "base_ns": "http://ucsd.edu/building/ontology/ebu3b#"
     },
     "server": {
         "hostname": "0.0.0.0:7889",
